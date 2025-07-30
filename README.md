@@ -45,10 +45,9 @@ This project uses zero-shot classification, rule-based logic, and sentiment scor
 
 ## Sample Output Format (Multi-topic Summary)
 
-| ReviewID | OriginalReview                          | Topic1                  | Summary1                                   | Topic2            | Summary2                                 | MostEmotionalSentence                         | EmotionTopic         | EmotionScore |
-|----------|------------------------------------------|--------------------------|---------------------------------------------|-------------------|-------------------------------------------|------------------------------------------------|----------------------|---------------|
-| 102      | The flight was delayed and staff was rude. | Flight Delay            | The flight was delayed                      | Staff & Service Attitude | The staff was rude                         | The staff was rude                              | Staff & Service Attitude | -0.92         |
-| 203      | I loved the meal, but the boarding was chaotic. | In-flight Food and Drinks | I loved the meal                            | Boarding Process   | The boarding was chaotic                   | The boarding was chaotic                        | Boarding Process     | -0.65         |
+| ReviewID | OriginalReview                     | Summary1               | Topic1 | Summary2               | Topic2 | MostEmotionalSentence               | EmotionTopic | EmotionScore |
+|----------|------------------------------------|------------------------|--------|------------------------|--------|-------------------------------------|--------------|--------------|
+| 79      | An excellent flight in Club World on British Airways. The welcome aboard was warm and that continued throughout the flight. The crew were attentive, friendly and very professional. On board food for dinner and breakfast was good and there was a well chosen selection of wines. In flight entertainment offered a great selection of films and audio. The seat/flat bed was very comfortable - British Airways have done an excellent job in the design and comfort of the suites on board the A350. I liked the sleek, minimalist design. This flight showed that BA can be among the world? best airlines. | In flight entertainment offered a great selection of films and audio. | In-flight Entertainment | On board food for dinner and breakfast was good and there was a well chosen selection of wines. | In-flight Food and Drinks | This flight showed that BA can be among the world? best airlines. | Overall Airline Experience | 0.97 |
 
 ---
 
